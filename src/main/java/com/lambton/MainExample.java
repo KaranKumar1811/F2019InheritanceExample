@@ -22,7 +22,7 @@ public class MainExample
         p1 = s1;
 
         p1.display();
-        p1.print();
+       ((Student) p1).print();
 
         Faculty f1 = new FullTimeFaculty(1,
                 "Pritesh",

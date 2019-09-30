@@ -3,7 +3,7 @@ package com.lambton;
 import java.time.LocalDate;
 import java.util.Date;
 
-public class Student extends Person
+public class Student extends Person implements IPrintable
 {
     private String courseName;
     private int currentSemester;
@@ -48,9 +48,15 @@ public class Student extends Person
     }
 
     @Override
+    public void print() {
+
+    }
+
+
+/*    @Override
     public void print()
     {
         System.out.println("print() from Student");
-    }
+    }*/
 
 }

@@ -60,9 +60,11 @@ public abstract class Person {
 
     public abstract void display();
 
-    public void print()
+/*    public void print()
     {
         System.out.println("print() from Person");
-    }
+    }*/
+
+
 }
 
